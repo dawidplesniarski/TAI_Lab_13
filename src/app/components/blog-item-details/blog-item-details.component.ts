@@ -9,6 +9,9 @@ export class BlogItemDetailsComponent implements OnInit {
 
   constructor() { }
 
+  image = 'http://osnews.pl/wp-content/uploads/2016/06/it-grafika.jpg';
+  text = 'Tytuł';
+
   ngOnInit() {
   }
 
