@@ -11,6 +11,8 @@ import { BlogItemComponent } from './components/blog-item/blog-item.component';
 import { BlogItemTextComponent } from './components/blog-item-text/blog-item-text.component';
 import { BlogItemImageComponent } from './components/blog-item-image/blog-item-image.component';
 import { BlogItemDetailsComponent } from './components/blog-item-details/blog-item-details.component';
+import {HttpClientModule} from '@angular/common/http';
+import {DataService} from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -26,9 +28,12 @@ import { BlogItemDetailsComponent } from './components/blog-item-details/blog-it
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    DataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
