@@ -14,6 +14,10 @@ import {BlogItemDetailsComponent} from './components/blog-item-details/blog-item
 import {HttpClientModule} from '@angular/common/http';
 import {DataService} from './services/data.service';
 import {SummaryPipe} from './pipes/summary.pipe';
+import { SearchBarComponent } from './shared/search-bar/search-bar.component';
+import {FormsModule} from '@angular/forms';
+import { BlogHomeComponent } from './components/blog-home/blog-home.component';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -26,12 +30,16 @@ import {SummaryPipe} from './pipes/summary.pipe';
     BlogItemTextComponent,
     BlogItemImageComponent,
     BlogItemDetailsComponent,
-    SummaryPipe
+    SummaryPipe,
+    SearchBarComponent,
+    BlogHomeComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     DataService
