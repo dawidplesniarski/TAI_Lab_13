@@ -1,3 +1,6 @@
-<blog-item-image [image]="image"></blog-item-image>
-<app-blog-item-text [text]="text"></app-blog-item-text>
-
+<div>
+  <blog-item-image class="card-img-top" [image]="image"></blog-item-image>
+  <div class="card-body">
+    <app-blog-item-text class="card-text" [title]="title" [id]="id" [text]="text"></app-blog-item-text>
+  </div>
+</div>

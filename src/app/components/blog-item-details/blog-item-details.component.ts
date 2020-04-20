@@ -12,8 +12,11 @@ export class BlogItemDetailsComponent implements OnInit {
   constructor(private dataService: DataService, private route: ActivatedRoute) {
   }
 
-  image = 'http://osnews.pl/wp-content/uploads/2016/06/it-grafika.jpg';
-  text = 'Tytuł';
+  public title = '';
+  public image = '';
+  public text = '';
+  public id: number;
+
 
   ngOnInit() {
     let id: string;
@@ -25,6 +28,7 @@ export class BlogItemDetailsComponent implements OnInit {
     this.dataService.getById(id).subscribe(res => {
       this.image = res['image'];
       this.text = res['text'];
+      this.title = res['title'];
     });
   }
 

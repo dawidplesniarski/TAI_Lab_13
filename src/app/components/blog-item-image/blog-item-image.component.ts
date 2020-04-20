@@ -10,7 +10,7 @@ export class BlogItemImageComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }
