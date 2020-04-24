@@ -4,9 +4,9 @@ import {
   ElementRef,
   AfterViewInit,
 } from '@angular/core';
-import {fromEvent} from 'rxjs/observable/fromEvent';
 import {debounceTime, distinctUntilChanged, map, switchMap} from 'rxjs/operators';
 import {DataService} from '../../services/data.service';
+import {fromEvent} from 'rxjs';
 
 @Component({
   selector: 'selectize',
