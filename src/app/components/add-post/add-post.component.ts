@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import {DataService} from '../../services/data.service';
-import {Router} from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {DataService} from "../../services/data.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-add-post',
@@ -9,9 +9,9 @@ import {Router} from '@angular/router';
 })
 export class AddPostComponent implements OnInit {
   public post = {
-    title:'',
-    url:'',
-    content:''
+    title: '',
+    url: '',
+    content: '',
   }
 
   constructor(private dataService: DataService, private router: Router) { }

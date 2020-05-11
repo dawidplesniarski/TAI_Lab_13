@@ -1,4 +1,5 @@
 'use strict';
+
 import mongoose from 'mongoose';
 import uniqueValidator from 'mongoose-unique-validator';
 import mongoConverter from '../service/mongoConverter';
