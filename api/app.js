@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors());
 
-config.databaseUrl = 'mongodb://tai:taitai1@ds147180.mlab.com:47180/tai';
+//config.databaseUrl = 'mongodb://tai:taitai1@ds147180.mlab.com:47180/tai';
 mongoose.connect(config.databaseUrl, {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true}, (error) => {
   if (error) {
     console.error(error);
