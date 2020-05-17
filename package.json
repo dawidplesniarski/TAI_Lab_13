@@ -23,7 +23,10 @@
     "bootstrap": "^4.4.1",
     "font": "0.0.4",
     "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.3",
     "rxjs": "~6.4.0",
+    "sha1": "^1.1.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },

@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
 
 userSchema.plugin(uniqueValidator);
 
-const UserModel = mongoose.model('dp_user', userSchema);
+const UserModel = mongoose.model('dawidplesniarski_user', userSchema);
 
 function createNewOrUpdate(user) {
   return Promise.resolve().then(() => {
