@@ -21,6 +21,8 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { TextFormatDirective } from './directives/text-format.directive';
 import { SelectizeComponent } from './components/selectize/selectize.component';
 import { AddPostComponent } from './components/add-post/add-post.component';
+import {RouterModule} from '@angular/router';
+import {AuthService} from './services/auth.service';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,7 @@ import { AddPostComponent } from './components/add-post/add-post.component';
     FormsModule
   ],
   providers: [
-    DataService
+    AuthService
   ],
   bootstrap: [AppComponent]
 })
