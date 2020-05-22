@@ -61,7 +61,7 @@ import { SignupComponent } from './components/signup/signup.component';
       useClass: AuthInterceptor,
       multi: true
     },
-
+  DataService
   ],
   bootstrap: [AppComponent]
 })
