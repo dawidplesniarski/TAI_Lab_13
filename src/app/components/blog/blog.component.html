@@ -1,4 +1,7 @@
 <selectize></selectize>
+<div id="logo">
+  <img src="https://seeklogo.com/images/F/ferrari-logo-7935CF173C-seeklogo.com.png">
+</div>
 <div *ngFor="let item of items$ | filter:filterText">
   <div class="blog-items">
     <blog-item [id]="item.id" [image]="item.url" [text]="item.content">
