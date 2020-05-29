@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run app": "./node_modules/.bin/nodemon app"
+    "run app": "./node_modules/.bin/nodemon app",
+    "start": "node index.js"
   },
   "author": "Dawid Pleśniarski",
   "license": "ISC",

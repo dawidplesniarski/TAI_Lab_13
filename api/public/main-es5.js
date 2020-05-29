@@ -131,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<img [src]=\"image\">\n";
+    __webpack_exports__["default"] = "<img [src]=\"image\" class=\"card-img-top\">\n";
     /***/
   },
 
@@ -191,7 +191,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<selectize></selectize>\n<div *ngFor=\"let item of items$ | filter:filterText\">\n  <blog-item [id]=\"item.id\" [image]=\"item.url\" [text]=\"item.content\">\n  </blog-item>\n</div>\n";
+    __webpack_exports__["default"] = "<selectize></selectize>\n<div id=\"logo\">\n  <img src=\"https://seeklogo.com/images/F/ferrari-logo-7935CF173C-seeklogo.com.png\">\n</div>\n<div *ngFor=\"let item of items$ | filter:filterText\">\n  <div class=\"blog-items\">\n    <blog-item [id]=\"item.id\" [image]=\"item.url\" [text]=\"item.content\">\n    </blog-item>\n  </div>\n</div>\n";
     /***/
   },
 
@@ -231,7 +231,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <title>Dawid Pleśniarski</title>\n</head>\n<body>\n<div id=\"nav\" class=\"navbar2\"></div>\n\n<div class=\"row\">\n  <div class=\"col-9 col-sm-9 col-md-9 col-lg-9\">\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n\n  </div>\n  <div class=\"col-3 col-sm-3 col-md-3 col-lg-3\">\n    <h3>\n      Szybki kontakt\n    </h3>\n    <ul class=\"nav flex-column\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-facebook-official\" aria-hidden=\"true\"></i\n        >Facebook</a\n        >\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-instagram-official\"></i>Instagram</a\n        >\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-envelope-square\"></i>Email</a\n        >\n      </li>\n    </ul>\n  </div>\n</div>\n\n<div class=\"scroll\">\n  <button class=\"btn btn-success\">\n    <i class=\"fa fa-arrow-circle-up\" aria-hidden=\"true\"></i>Do góry\n  </button>\n</div>\n\n<div id=\"content-wrap\" align=\"center\">\n  <footer class=\"footer-text\">\n    Copyrights © Dawid Pleśniarski 2020\n  </footer>\n</div>\n</body>\n</html>\n";
+    __webpack_exports__["default"] = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <title>Dawid Pleśniarski</title>\n</head>\n<body>\n<div id=\"nav\" class=\"navbar2\"></div>\n\n<div class=\"row\">\n  <div id=\"lorem\" class=\"col-9 col-sm-9 col-md-9 col-lg-9\">\n\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n    <p>\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis\n      recusandae facere veniam at ut. Tempore dolore voluptas exercitationem\n      qui, voluptate cupiditate. Blanditiis accusantium repudiandae tempore\n      doloremque, vel vitae incidunt similique.\n    </p>\n  </div>\n  <div class=\"col-3 col-sm-3 col-md-3 col-lg-3\">\n    <h3>\n      Szybki kontakt\n    </h3>\n    <ul class=\"nav flex-column\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-facebook-official\" aria-hidden=\"true\"></i\n        >Facebook</a\n        >\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-instagram-official\"></i>Instagram</a\n        >\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\"\n        ><i class=\"fa fa-envelope-square\"></i>Email</a\n        >\n      </li>\n    </ul>\n  </div>\n</div>\n\n<div class=\"scroll\" style=\"padding-left: 5%; padding-top: 10%; position: absolute\">\n  <button class=\"btn btn-success\">\n    <i class=\"fa fa-arrow-circle-up\" aria-hidden=\"true\"></i>Do góry\n  </button>\n</div>\n\n<div id=\"content-wrap\" align=\"center\">\n  <footer class=\"footer-text\">\n    Copyrights © Dawid Pleśniarski 2020\n  </footer>\n</div>\n</body>\n</html>\n";
     /***/
   },
 
@@ -251,7 +251,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<form action=\"post\" autocomplete=\"off\" method=\"POST\">\n  <div class=\"input-group\">\n    <input [(ngModel)]=\"credentials.login\" type=\"text\" class=\"form-control\"\n           name=\"username\" placeholder=\"Nazwa\" title=\"Wprowadź login\">\n  </div>\n\n  <div class=\"input-group\">\n    <input [(ngModel)]=\"credentials.password\" type=\"password\" class=\"form-control\"\n           name=\"password\" placeholder=\"Hasło\" title=\"Wprowadź hasło\">\n  </div>\n\n  <button (click)=\"signIn()\" class=\"btn btn-lg btn-pink btn-block\" type=\"submit\" title=\"Przycisk zaloguj\">\n    Zaloguj\n  </button>\n</form>\n";
+    __webpack_exports__["default"] = "<div class=\"container\">\n  <form action=\"post\" autocomplete=\"off\" method=\"POST\">\n    <div class=\"input-group\">\n      <input [(ngModel)]=\"credentials.login\" type=\"text\" class=\"form-control\"\n             name=\"username\" placeholder=\"Nazwa\" title=\"Wprowadź login\">\n    </div>\n\n    <div class=\"input-group\">\n      <input [(ngModel)]=\"credentials.password\" type=\"password\" class=\"form-control\"\n             name=\"password\" placeholder=\"Hasło\" title=\"Wprowadź hasło\">\n    </div>\n    <div id=\"wrapper\">\n      <button (click)=\"signIn()\" class=\"btn btn-lg btn-pink btn-block\" type=\"submit\" title=\"Przycisk zaloguj\">\n        Zaloguj\n      </button>\n    </div>\n  </form>\n</div>\n";
     /***/
   },
 
@@ -291,7 +291,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<section class=\"signup\">\n  <h1 class=\"entry-title\"><span>Zarejestruj się</span></h1>\n  <hr>\n  <form class=\"form-horizontal\" method=\"post\" name=\"signup\" id=\"signup\">\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Email<span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-8 col-sm-9\">\n        <div class=\"input-group\">\n          <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-envelope\"></i></span>\n          <input type=\"email\" class=\"form-control\" name=\"emailid\" id=\"emailid\" placeholder=\"Podaj swój email\"\n                 value=\"\" [(ngModel)]=\"credentials.email\">\n        </div>\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Ustaw hasło<span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-5 col-sm-8\">\n        <div class=\"input-group\">\n          <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n          <input type=\"password\" class=\"form-control\" name=\"password\" id=\"password\"\n                 placeholder=\"Wpisz hasło (5-15 znaków)\" value=\"\" [(ngModel)]=\"credentials.password\">\n        </div>\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Potwierdź hasło <span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-5 col-sm-8\">\n        <div class=\"input-group\">\n          <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n          <input type=\"password\" class=\"form-control\" name=\"cpassword\" id=\"cpassword\"\n                 placeholder=\"Potwierdź hasło\" value=\"\">\n        </div>\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Podaj imię <span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-8 col-sm-9\">\n        <input type=\"text\" class=\"form-control\" name=\"mem_name\" id=\"mem_name\" placeholder=\"Wpisz imię\" value=\"\"\n               [(ngModel)]=\"credentials.name\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <div class=\"col-xs-offset-3 col-xs-10\">\n        <button (click)=\"create()\" name=\"Submit\" type=\"submit\" class=\"btn btn-primary\">Zarejestruj\n        </button>\n      </div>\n    </div>\n  </form>\n</section>\n";
+    __webpack_exports__["default"] = "<section class=\"signup\">\n  <h1 class=\"entry-title\"><span>Zarejestruj się</span></h1>\n  <hr>\n    <form class=\"form-horizontal\" method=\"post\" name=\"signup\" id=\"signup\">\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Email<span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-8 col-sm-9\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-envelope\"></i></span>\n            <input type=\"email\" class=\"form-control\" name=\"emailid\" id=\"emailid\" placeholder=\"Podaj swój email\"\n                   value=\"\" [(ngModel)]=\"credentials.email\">\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Ustaw hasło<span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-5 col-sm-8\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n            <input type=\"password\" class=\"form-control\" name=\"password\" id=\"password\"\n                   placeholder=\"Wpisz hasło (5-15 znaków)\" value=\"\" [(ngModel)]=\"credentials.password\">\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Potwierdź hasło <span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-5 col-sm-8\">\n          <div class=\"input-group\">\n            <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n            <input type=\"password\" class=\"form-control\" name=\"cpassword\" id=\"cpassword\"\n                   placeholder=\"Potwierdź hasło\" value=\"\">\n          </div>\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label class=\"control-label col-sm-3\">Podaj imię <span class=\"text-danger\">*</span></label>\n        <div class=\"col-md-8 col-sm-9\">\n          <input type=\"text\" class=\"form-control\" name=\"mem_name\" id=\"mem_name\" placeholder=\"Wpisz imię\" value=\"\"\n                 [(ngModel)]=\"credentials.name\">\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <div class=\"col-xs-offset-3 col-xs-10\">\n          <button (click)=\"create()\" name=\"Submit\" type=\"submit\" class=\"btn btn-primary\">Zarejestruj\n          </button>\n        </div>\n      </div>\n    </form>\n</section>\n";
     /***/
   },
 
@@ -311,7 +311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nav>\n  <ul class=\"nav justify-content-center\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/']\">Home</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/blog']\">Blog</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/contact']\">Contact</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/add-post']\">Add post</a>\n    </li>\n  </ul>\n</nav>\n";
+    __webpack_exports__["default"] = "<nav>\n  <ul class=\"nav justify-content-center\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/']\">Home</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/blog']\">Blog</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/contact']\">Contact</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" [routerLink]=\"['/add-post']\">Add post</a>\n    </li>\n    <a class=\"nav-link\" routerLink=\"/login\" *ngIf=\"!authService.currentUser\">Zaloguj</a>\n    <button class=\"nav-link\" (click)=\"logOut()\" *ngIf=\"authService.currentUser\">Wyloguj</button>\n    <a class=\"nav-link\" routerLink=\"/signup\" *ngIf=\"!authService.currentUser\">Zarejestruj</a>\n\n    <!--    <li class=\"nav-item\">-->\n<!--      <a class=\"nav-link active\" [routerLink]=\"['/login']\">Login</a>-->\n<!--    </li>-->\n<!--    <li class=\"nav-item\">-->\n<!--      <a class=\"nav-link active\" [routerLink]=\"['/signup']\">Signup</a>-->\n<!--    </li>-->\n<!--    <li>-->\n<!--      <button (click)=\"logOut()\" class=\"dropdown-item\" style=\"justify-content: center; background-color: grey\">Logout</button>-->\n<!--    </li>-->\n  </ul>\n</nav>\n\n";
     /***/
   },
 
@@ -986,60 +986,57 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! ./components/blog-home/blog-home.component */
-    "./src/app/components/blog-home/blog-home.component.ts");
-    /* harmony import */
-
-
-    var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/add-post/add-post.component */
     "./src/app/components/add-post/add-post.component.ts");
     /* harmony import */
 
 
-    var _services_auth_guard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _services_auth_guard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./services/auth.guard */
     "./src/app/services/auth.guard.ts");
     /* harmony import */
 
 
-    var _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _components_login_login_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./components/login/login.component */
     "./src/app/components/login/login.component.ts");
     /* harmony import */
 
 
-    var _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./components/signup/signup.component */
     "./src/app/components/signup/signup.component.ts");
+    /* harmony import */
+
+
+    var _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./components/blog-home/blog-home.component */
+    "./src/app/components/blog-home/blog-home.component.ts");
 
     var routes = [{
-      path: "",
-      component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
-    }, {
       path: '',
       component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"],
-      canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_8__["AuthGuard"]]
+      canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_7__["AuthGuard"]]
     }, {
-      path: "contact",
+      path: 'contact',
       component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"]
     }, {
-      path: "blog",
-      component: _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_6__["BlogHomeComponent"],
-      canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_8__["AuthGuard"]]
+      path: 'blog',
+      component: _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_10__["BlogHomeComponent"],
+      canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_7__["AuthGuard"]]
     }, {
-      path: "blog/detail/:id",
+      path: 'blog/detail/:id',
       component: _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_5__["BlogItemDetailsComponent"]
     }, {
       path: 'add-post',
-      component: _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_7__["AddPostComponent"]
+      component: _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_6__["AddPostComponent"]
     }, {
       path: 'login',
-      component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__["LoginComponent"]
+      component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_8__["LoginComponent"]
     }, {
       path: 'signup',
-      component: _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_10__["SignupComponent"]
+      component: _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_9__["SignupComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -1229,73 +1226,79 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _services_data_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! ./services/data.service */
+    "./src/app/services/data.service.ts");
+    /* harmony import */
+
+
+    var _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./pipes/summary.pipe */
     "./src/app/pipes/summary.pipe.ts");
     /* harmony import */
 
 
-    var _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    var _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ./shared/search-bar/search-bar.component */
     "./src/app/shared/search-bar/search-bar.component.ts");
     /* harmony import */
 
 
-    var _angular_forms__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! @angular/forms */
     "./node_modules/@angular/forms/fesm2015/forms.js");
     /* harmony import */
 
 
-    var _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    var _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./components/blog-home/blog-home.component */
     "./src/app/components/blog-home/blog-home.component.ts");
     /* harmony import */
 
 
-    var _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    var _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./pipes/filter.pipe */
     "./src/app/pipes/filter.pipe.ts");
     /* harmony import */
 
 
-    var _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    var _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! ./directives/text-format.directive */
     "./src/app/directives/text-format.directive.ts");
     /* harmony import */
 
 
-    var _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    var _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./components/selectize/selectize.component */
     "./src/app/components/selectize/selectize.component.ts");
     /* harmony import */
 
 
-    var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./components/add-post/add-post.component */
     "./src/app/components/add-post/add-post.component.ts");
     /* harmony import */
 
 
-    var _services_auth_service__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    var _services_auth_service__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./services/auth.service */
     "./src/app/services/auth.service.ts");
     /* harmony import */
 
 
-    var _shared_auth_interceptor__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    var _shared_auth_interceptor__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./shared/auth.interceptor */
     "./src/app/shared/auth.interceptor.ts");
     /* harmony import */
 
 
-    var _components_login_login_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    var _components_login_login_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
     /*! ./components/login/login.component */
     "./src/app/components/login/login.component.ts");
     /* harmony import */
 
 
-    var _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    var _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
     /*! ./components/signup/signup.component */
     "./src/app/components/signup/signup.component.ts");
 
@@ -1304,13 +1307,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"], _components_blog_item_blog_item_component__WEBPACK_IMPORTED_MODULE_9__["BlogItemComponent"], _components_blog_item_text_blog_item_text_component__WEBPACK_IMPORTED_MODULE_10__["BlogItemTextComponent"], _components_blog_item_image_blog_item_image_component__WEBPACK_IMPORTED_MODULE_11__["BlogItemImageComponent"], _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_12__["BlogItemDetailsComponent"], _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_14__["SummaryPipe"], _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_15__["SearchBarComponent"], _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_17__["BlogHomeComponent"], _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_18__["FilterPipe"], _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_19__["TextFormatDirective"], _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_20__["SelectizeComponent"], _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_21__["AddPostComponent"], _components_login_login_component__WEBPACK_IMPORTED_MODULE_24__["LoginComponent"], _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_25__["SignupComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_16__["FormsModule"]],
-      providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_22__["AuthService"], {
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"], _components_blog_item_blog_item_component__WEBPACK_IMPORTED_MODULE_9__["BlogItemComponent"], _components_blog_item_text_blog_item_text_component__WEBPACK_IMPORTED_MODULE_10__["BlogItemTextComponent"], _components_blog_item_image_blog_item_image_component__WEBPACK_IMPORTED_MODULE_11__["BlogItemImageComponent"], _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_12__["BlogItemDetailsComponent"], _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_15__["SummaryPipe"], _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_16__["SearchBarComponent"], _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_18__["BlogHomeComponent"], _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_19__["FilterPipe"], _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_20__["TextFormatDirective"], _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__["SelectizeComponent"], _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__["AddPostComponent"], _components_login_login_component__WEBPACK_IMPORTED_MODULE_25__["LoginComponent"], _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_26__["SignupComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_17__["FormsModule"]],
+      providers: [_services_auth_service__WEBPACK_IMPORTED_MODULE_23__["AuthService"], {
         provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HTTP_INTERCEPTORS"],
-        useClass: _shared_auth_interceptor__WEBPACK_IMPORTED_MODULE_23__["AuthInterceptor"],
+        useClass: _shared_auth_interceptor__WEBPACK_IMPORTED_MODULE_24__["AuthInterceptor"],
         multi: true
-      }],
+      }, _services_data_service__WEBPACK_IMPORTED_MODULE_14__["DataService"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
     /***/
@@ -1882,7 +1885,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".main {\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ibG9nL2Jsb2cuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy9ibG9nLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy9ibG9nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW57XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbiIsIi5tYWluIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufSJdfQ== */";
+    __webpack_exports__["default"] = ".blog-items {\n  text-align: center;\n}\n\n#logo {\n  text-align: center;\n  padding-bottom: 30px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ibG9nL2Jsb2cuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy9ibG9nLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQUE7QUNDRjs7QURDQTtFQUNFLGtCQUFBO0VBQ0Esb0JBQUE7QUNFRiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYmxvZy9ibG9nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJsb2ctaXRlbXN7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbiNsb2dve1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufVxuXG4iLCIuYmxvZy1pdGVtcyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI2xvZ28ge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmctYm90dG9tOiAzMHB4O1xufSJdfQ== */";
     /***/
   },
 
@@ -2062,7 +2065,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIn0= */";
+    __webpack_exports__["default"] = "#lorem {\n  padding-top: 5%;\n  padding-left: 40px;\n}\n\n#lorem p {\n  padding-bottom: 3%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBQTtFQUNBLGtCQUFBO0FDQ0Y7O0FEQ0E7RUFDRSxrQkFBQTtBQ0VGIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbG9yZW17XG4gIHBhZGRpbmctdG9wOiA1JTtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xufVxuI2xvcmVtIHB7XG4gIHBhZGRpbmctYm90dG9tOiAzJTtcbn1cbiIsIiNsb3JlbSB7XG4gIHBhZGRpbmctdG9wOiA1JTtcbiAgcGFkZGluZy1sZWZ0OiA0MHB4O1xufVxuXG4jbG9yZW0gcCB7XG4gIHBhZGRpbmctYm90dG9tOiAzJTtcbn0iXX0= */";
     /***/
   },
 
@@ -2139,7 +2142,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MifQ== */";
+    __webpack_exports__["default"] = "button {\n  background-color: lightskyblue;\n  width: 40%;\n}\n\n.loginItems {\n  text-align: center;\n  align-content: center;\n  align-items: center;\n  alignment: center;\n}\n\n.container {\n  padding-top: 30px;\n  text-align: center;\n  width: 70%;\n}\n\n.container .input-group {\n  padding: 10px;\n}\n\n#wrapper {\n  display: flex;\n  justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9sb2dpbi9sb2dpbi5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDhCQUFBO0VBQ0EsVUFBQTtBQ0NGOztBREVBO0VBQ0Usa0JBQUE7RUFDQSxxQkFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURDQTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0FDRUY7O0FEREU7RUFDRSxhQUFBO0FDR0o7O0FEQUU7RUFDRSxhQUFBO0VBQ0EsdUJBQUE7QUNHSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJidXR0b257XG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0c2t5Ymx1ZTtcbiAgd2lkdGg6IDQwJTtcblxufVxuLmxvZ2luSXRlbXN7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBhbGlnbm1lbnQ6IGNlbnRlcjtcbn1cbi5jb250YWluZXJ7XG4gIHBhZGRpbmctdG9wOiAzMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHdpZHRoOjcwJTtcbiAgLmlucHV0LWdyb3Vwe1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gIH1cbn1cbiAgI3dyYXBwZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIH1cblxuIiwiYnV0dG9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRza3libHVlO1xuICB3aWR0aDogNDAlO1xufVxuXG4ubG9naW5JdGVtcyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgYWxpZ24tY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBhbGlnbm1lbnQ6IGNlbnRlcjtcbn1cblxuLmNvbnRhaW5lciB7XG4gIHBhZGRpbmctdG9wOiAzMHB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHdpZHRoOiA3MCU7XG59XG4uY29udGFpbmVyIC5pbnB1dC1ncm91cCB7XG4gIHBhZGRpbmc6IDEwcHg7XG59XG5cbiN3cmFwcGVyIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59Il19 */";
     /***/
   },
 
@@ -2380,7 +2383,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2lnbnVwL3NpZ251cC5jb21wb25lbnQuc2NzcyJ9 */";
+    __webpack_exports__["default"] = "button {\n  background-color: lightskyblue;\n  border-color: lightskyblue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9kYXdpZC9Eb3dubG9hZHMvVEFJX0xhYl81L3NyYy9hcHAvY29tcG9uZW50cy9zaWdudXAvc2lnbnVwLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NpZ251cC9zaWdudXAuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw4QkFBQTtFQUNBLDBCQUFBO0FDQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NpZ251cC9zaWdudXAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJidXR0b257XG4gIGJhY2tncm91bmQtY29sb3I6IGxpZ2h0c2t5Ymx1ZTtcbiAgYm9yZGVyLWNvbG9yOiBsaWdodHNreWJsdWU7XG59XG4iLCJidXR0b24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodHNreWJsdWU7XG4gIGJvcmRlci1jb2xvcjogbGlnaHRza3libHVlO1xufSJdfQ== */";
     /***/
   },
 
@@ -2581,19 +2584,51 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../services/auth.service */
+    "./src/app/services/auth.service.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
 
     var NavbarComponent = /*#__PURE__*/function () {
-      function NavbarComponent() {
+      function NavbarComponent(authService, router) {
         _classCallCheck(this, NavbarComponent);
+
+        this.authService = authService;
+        this.router = router;
       }
 
       _createClass(NavbarComponent, [{
+        key: "logOut",
+        value: function logOut() {
+          var _this6 = this;
+
+          this.authService.logout().subscribe(function () {
+            _this6.router.navigate(['/']);
+          });
+        }
+      }, {
         key: "ngOnInit",
         value: function ngOnInit() {}
       }]);
 
       return NavbarComponent;
     }();
+
+    NavbarComponent.ctorParameters = function () {
+      return [{
+        type: _services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+      }];
+    };
 
     NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'navbar',
@@ -3156,12 +3191,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(SearchBarComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this6 = this;
+          var _this7 = this;
 
           this.route.queryParams.subscribe(function (params) {
-            _this6.filterText = params['name'];
+            _this7.filterText = params['name'];
 
-            _this6.sendFilter();
+            _this7.sendFilter();
           });
         }
       }, {

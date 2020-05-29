@@ -10,7 +10,6 @@ import cors from 'cors';
 
 const app = express();
 
-
 app.use(express.static('public'));
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
@@ -35,6 +34,11 @@ process.on('SIGINT', () => {
 });
 
 routes(app);
+
+app.get('/*', function (req, res) {
+  res.sendFile(__dirname + '/public/index.html');
+});
+
 app.listen(process.env.PORT || 3000, function () {
   console.info('Server is running')
 });
