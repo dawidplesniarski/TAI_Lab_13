@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.post;
 
+import com.example.demo.post.Post;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
