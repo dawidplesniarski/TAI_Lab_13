@@ -16,7 +16,6 @@ const routes: Routes = [
 {
 path:'',
   component: HomeComponent,
-  canActivate: [AuthGuard]
 },
 {
 path:'contact',
@@ -25,7 +24,6 @@ component: ContactComponent
 {
   path: 'blog',
   component: BlogHomeComponent,
-  canActivate: [AuthGuard]
 },
 {
   path: 'blog/detail/:id',

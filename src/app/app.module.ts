@@ -26,6 +26,7 @@ import {AuthService} from './services/auth.service';
 import {AuthInterceptor} from './shared/auth.interceptor';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
+import {HttpIntercepterBasicAuthService} from "./services/interceptor-auth.service";
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { SignupComponent } from './components/signup/signup.component';
     SelectizeComponent,
     AddPostComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,14 +56,15 @@ import { SignupComponent } from './components/signup/signup.component';
     FormsModule
   ],
   providers: [
+    DataService,
     AuthService,
     {
       provide: HTTP_INTERCEPTORS,
-      useClass: AuthInterceptor,
+      useClass: HttpIntercepterBasicAuthService,
       multi: true
     },
-  DataService
   ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule {
